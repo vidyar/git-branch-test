@@ -1,7 +1,5 @@
 # Dummy edit 3
 language: python
-
-
 python:
  - 2.7
 env:
@@ -10,6 +8,7 @@ env:
    - secure: WQaK1Y3Zhgm448+fKCWFGL6/tdR1CTiPwON13ZtOYYSaAtNCs2mgmoSoHpv6Ob88uB4Yitk9lIv8+KlCfoQw1fudMtir3xVykJwNgCNYHZyeQE96kZ4495G+AH4J4AKbwXExvPA/HksvWbhusfS8RvdAMv0FFPKs5Xzdd0xEHEZXUFG1giZK7OQ22Ri7vrvLerqHFmRjKcq7owSIxd3GhRqVpSZOix2HS8IZQPhMp6t1SoDq8K+H3Tc0foeuT8mCy1tVJYUTipSH0h5624VhxUaVGGUgntSgRTsamyfTx/JaUT8ihoyG+XpafYHhpEt2VMwwYFqPBHOHDwupf4svNg==
    - secure: J+olfhDO/Xx+obStHnNXTK6zn+wV0pKQ4ccfaQW45YwsO53vhOcWn5Y/vfcgtjOK4Um9fR9FQyi81yygIHVC2GcVvcrOsFbYLKvpw0TlnC+AyQ2cMotmXpAchWwpwbdXS3QAIEKtT/QddMjGQXKPW1XxQPjf29pAzAhkkGnm+05m2ERbOxxwIuLF/+ATNjFPqehJcJLmitRa3xnDFs93ErmJtEvq1h6HRDJ70JhwKXSHBB6Exg4/qxu2QWy4nwZ/DUn9Z+WE1c/m0RrMqv2U/NSVjM66BF9UPvUwP2gZdWD/HVYltENm7uDQPqN7KcXQH8iI+QSgFUsW55PIXnLMEA== 
 install: true
+
 script:
  - git rev-parse --abbrev-ref HEAD
  - echo $name
