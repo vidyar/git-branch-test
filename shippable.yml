@@ -4,7 +4,9 @@ python:
 env:
   global:
     - secure: j0MY6QdPS28XAaZc0qiFCl17SlcoDAE2swMRFonl4qHeyg2ICsLoLWRiDz0DEvRXlwYuRXhiGvtNgSAqyMLDpydu3P1SM/E6JX1kgC0tFHKWRLxVKYUQrVZTEbKdWXvssUcIW6J7f+TJiX7WoVyoA36BajvzDJ1QM/njxikv2p7ooDJXF/xJB8H/Hti5wI9ti2eOOnyOH7DZiZFJpxo+ajTrpqXXqCLvg2yPRjdkoxLM5POYQCFwXUwqBACJPS2XxntWUB7ObJNaMbecK3KaQM+BGstBPIpM9b3mDK5qtkWqWbtSA6hyEbEfKmvPgr7MI3QZuW42jC90krJ5Wv2cHQ==  
+    - myvar= hello
 install: true
 script:
  - git rev-parse --abbrev-ref HEAD
  - echo $FOO and $BAR
+ - echo $myvar
