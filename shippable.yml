@@ -9,4 +9,4 @@ env:
 install: true
 script:
  - git rev-parse --abbrev-ref HEAD
- - $name
+ - echo $name
