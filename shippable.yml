@@ -4,8 +4,9 @@ python:
  - 2.7
 env:
  global:
-   - secure: HxDAv/eJdjeDyH/oP5IO7p7586mzVhsr+RQju7o/6HBtwI6DJmoagqQsFmVrVFCmUVH9fyN5X55dELWZ1oOt/zadaM5XY5GX8X8s++cXKe0Goxs5ieRb3Wb6KfO1K5/d/pOHacppIPb4Mt4bEqlrUNz7If46Faq60ini6QuXUTmO3To2h9XWhUlynz87qQCDyA/9aiGm6Tw0pGkSg6qcR9VMuznLKRhsrkFJHzY37M7o1WV7ye5CqptBM1yNko6OVg0MaufQrP2LOZw6D4Yb8VVw8wf1xr1hP7/l00y0GFj5YAZZYcsiU+NP2s6UTbcLJZUgwj8yvc6H8PbRAd5BlQ==
+   - secure: WQaK1Y3Zhgm448+fKCWFGL6/tdR1CTiPwON13ZtOYYSaAtNCs2mgmoSoHpv6Ob88uB4Yitk9lIv8+KlCfoQw1fudMtir3xVykJwNgCNYHZyeQE96kZ4495G+AH4J4AKbwXExvPA/HksvWbhusfS8RvdAMv0FFPKs5Xzdd0xEHEZXUFG1giZK7OQ22Ri7vrvLerqHFmRjKcq7owSIxd3GhRqVpSZOix2HS8IZQPhMp6t1SoDq8K+H3Tc0foeuT8mCy1tVJYUTipSH0h5624VhxUaVGGUgntSgRTsamyfTx/JaUT8ihoyG+XpafYHhpEt2VMwwYFqPBHOHDwupf4svNg==
+   
 install: true
 script:
  - git rev-parse --abbrev-ref HEAD
- - $foo
+ - $name
