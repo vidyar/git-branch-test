@@ -4,6 +4,7 @@ python:
  - 2.7
 env:
  global:
+   - secure: UjA1RGEVETazShbLglp4Yt/0RcyBZl5wTbmtlsCK4uzxxmuEs6VuVrO8cypBQhrGS36HCBjORbg0P+3D7YG8316eCjD8QPnq8jLIen2oTShDzhGvshBWOX0/X+hpF+AoUITMKbv6xDOAW+Y4snWwZSfrvrM7JUwd8dkl5JqWrg+A1KWBl6D+Fa/Epc6aNtrWgd2+I+g1KtysUEXNFWepVCayGT5P/+bCc739Ox+b+ZoJnR79OXb/dGCwTSneXxJISAXzOSiaU+xyE4pY5sqjBDan6j5TJ/BVOR9NdDsAAMeL/zB6FeN908B0rw2RzRw5N598kDe2RRG/yJWsMtcUJA==
    - secure: WQaK1Y3Zhgm448+fKCWFGL6/tdR1CTiPwON13ZtOYYSaAtNCs2mgmoSoHpv6Ob88uB4Yitk9lIv8+KlCfoQw1fudMtir3xVykJwNgCNYHZyeQE96kZ4495G+AH4J4AKbwXExvPA/HksvWbhusfS8RvdAMv0FFPKs5Xzdd0xEHEZXUFG1giZK7OQ22Ri7vrvLerqHFmRjKcq7owSIxd3GhRqVpSZOix2HS8IZQPhMp6t1SoDq8K+H3Tc0foeuT8mCy1tVJYUTipSH0h5624VhxUaVGGUgntSgRTsamyfTx/JaUT8ihoyG+XpafYHhpEt2VMwwYFqPBHOHDwupf4svNg==
    - secure: J+olfhDO/Xx+obStHnNXTK6zn+wV0pKQ4ccfaQW45YwsO53vhOcWn5Y/vfcgtjOK4Um9fR9FQyi81yygIHVC2GcVvcrOsFbYLKvpw0TlnC+AyQ2cMotmXpAchWwpwbdXS3QAIEKtT/QddMjGQXKPW1XxQPjf29pAzAhkkGnm+05m2ERbOxxwIuLF/+ATNjFPqehJcJLmitRa3xnDFs93ErmJtEvq1h6HRDJ70JhwKXSHBB6Exg4/qxu2QWy4nwZ/DUn9Z+WE1c/m0RrMqv2U/NSVjM66BF9UPvUwP2gZdWD/HVYltENm7uDQPqN7KcXQH8iI+QSgFUsW55PIXnLMEA== 
 install: true
@@ -12,3 +13,5 @@ script:
  - echo $name
  - echo $user
  - echo $company
+ - echo $place
+ - echo $area
